@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Valentine Quiz 💜</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+  <h1>💜 Valentine Quiz 💜</h1>
+
+  <div id="quiz-box">
+    <h2 id="question"></h2>
+    <div id="options"></div>
+    <p id="feedback"></p>
+    <button id="nextBtn" style="display:none;">Next ➜</button>
+  </div>
+
+  <div id="final-section" style="display:none;">
+    <h2>Final Challenge 🔒</h2>
+
+    <p>If the letter Z didn’t exist, what would be the last alphabet?</p>
+    <input id="f1">
+
+    <p>How many words are there in "I love you"?</p>
+    <input id="f2">
+
+    <p>If there was no U, what would happen to us?</p>
+    <input id="f3">
+
+    <br><br>
+    <button onclick="checkFinal()">Lock Answer</button>
+
+    <div id="result" style="display:none;">
+      <h2 id="flip">Y3S</h2>
+      <h3>Will you be my Valentine? 💘</h3>
+      <p>You answered: YES ❤️</p>
+    </div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
